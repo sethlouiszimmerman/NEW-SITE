@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=ad3f6ed6-0706-439d-b680-8e8e2bf91910&fontids=5591097");
+@font-face{
+	
+        font-family: "DIN W01 Regular";
+        src:url("80b0143f-6f0d-4dce-aafd-f3c81b85d177.woff") format("woff");
+		src:url("6ceed230-b2b3-4422-b048-4aa11687430a.woff2") format("woff2");
+	
+}
+
+body{
+	
+	font-family: "DIN W01 Regular";
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+
+p{
+	
+	text-transform: uppercase;
+	font-size: 10px;
+	line-height: 1.25;
+	margin: 0px 0px 0px 0px; 
+	
+}
+
+#email{
+
+	display: flex;
+	position: fixed;
+	right: 150px;
+	top: 150px;
+
+}
+
+address{
+
+	font-style: normal;
+	text-decoration: none;
+	color: black;
+
+}
+a{
+
+	text-decoration: none;
+	color: black;
+
+}
+
+a:hover{
+
+	text-decoration: none;
+	color: #00FF00;;
+
+}
+
+header{
+	
+	position: fixed;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: 50px;
+	grid-column-gap: 10px;
+	margin: 10px 10px 10px 10px; 
+
+}
+
+#email{
+
+	font-size: 10px;
+
+}
+
+#description{
+	
+	grid-column: 4 / span 3;
+	
+}
+
+content{
+
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+
+
+}
+
+#index-item{
+
+	display: flex;
+	position: fixed;
+	text-align: justify;
+	top: 150px;
+	left: 10px;
+
+
+}
+
+#berne{
+
+	display: flex;
+	align-items: baseline;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	margin: 0px 0px 0px 0px; 
+
+}
+
+/* CSS Document */
+
